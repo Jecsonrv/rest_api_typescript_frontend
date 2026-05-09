@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Layout } from "./layouts/Layout";
 import { NewProduct, action as newProductAction } from "./views/NewProduct";
 import { action as updateAvailabilityAction , Products, loader as productsLouder } from "./views/Products";
-import { EditProduct, loader as editProductLoader, action as editProductAction } from "./views/editProduct";
+import { EditProduct, loader as editProductLoader, action as editProductAction } from "./views/EditProduct";
 import { action as deleteProductAction} from "./components/ProductDetails";
 
 
